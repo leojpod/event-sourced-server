@@ -1,0 +1,26 @@
+# Defaults
+
+## target server
+http://localhost:31337
+
+##
+Accept: application/json
+--
+
+# Requests
+
+
+## check app status
+--
+GET /api/status
+
+
+## reset a counter
+-- 
+GET /api/counter/123/reset
+
+## increase a counter
+-- 
+GET /api/counter/123/addSome/15
+
+
